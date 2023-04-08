@@ -1,0 +1,34 @@
+
+Para realizar un script en Bash, también conocido como archivo de shell o archivo de comando, puedes seguir los siguientes pasos:
+
+    Abre un editor de texto: Puedes usar cualquier editor de texto, como el Bloc de notas o el Sublime Text. En este ejemplo, usaremos el editor de texto de Linux llamado "nano".
+
+    Escribir el código: En el editor de texto, escribe los comandos que quieres que se ejecuten. Por ejemplo, si deseas mostrar la fecha y hora actual, puedes escribir el siguiente código:
+
+bash
+
+#!/bin/bash
+echo "La fecha y hora actual son: "
+date
+
+Este código le indica a Bash que el intérprete debe usar el shell de Bash para ejecutar los comandos. La segunda línea utiliza el comando "echo" para imprimir la cadena de texto en la pantalla, seguida del comando "date" para imprimir la fecha y hora actual.
+
+    Guarda el archivo: Guarda el archivo con un nombre que termine en ".sh". Por ejemplo, "mi_script.sh". Si estás usando el editor de texto "nano", puedes guardar el archivo presionando Ctrl + X, seguido de Y para confirmar la acción y Enter para confirmar el nombre del archivo.
+
+    Dar permisos de ejecución: Antes de poder ejecutar el script, debes darle permisos de ejecución. Para hacer esto, utiliza el comando "chmod" con la siguiente sintaxis:
+
+bash
+
+chmod +x mi_script.sh
+
+Este comando le da permisos de ejecución al usuario actual para el archivo "mi_script.sh".
+
+    Ejecutar el script: Finalmente, puedes ejecutar el script usando el siguiente comando:
+
+bash
+
+./mi_script.sh
+
+Este comando indica a Bash que ejecute el archivo "mi_script.sh". Si todo ha sido configurado correctamente, verás la fecha y hora actual impresas en la pantalla.
+
+¡Y eso es todo! Siguiendo estos pasos, puedes crear y ejecutar un script de Bash en tu sistema.
